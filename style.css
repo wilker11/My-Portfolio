@@ -1,0 +1,340 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .header {
+    padding: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    margin-top: -33px;
+    margin-bottom: -32px;
+  }
+  
+  .header h1 {
+    display: inline-block;
+    font-size: 48px;
+    background-color: #ffffff;
+    color: #000000;
+    flex-wrap: wrap;
+    flex: 30%;
+  }
+  
+  .content {
+    width: 113%;
+    display: inline-block;
+    margin-left: -165px;
+    margin-top: -21px;
+    font-size: 22px;
+  }
+  
+  .header div {
+    padding-top: 24px;
+    margin-right: 32px;
+    float: right;
+    font-family: "Geomanist", Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 780;
+  }
+  
+  .header div ul {
+    list-style-type: none;
+    display: inline-block;
+  }
+  
+  .header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+    text-decoration: underline;
+  }
+  
+  a {
+    color: #ffffff;
+    text-decoration-line: underline;
+    display: flex;
+  }
+  
+  .hero {
+    height: 211px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("./assets/images/nn.jpeg");
+    background-size: cover;
+    background-position: center;
+  
+  }
+  
+  .bottom-right {
+    position: absolute;
+    bottom: auto;
+    right: 69px;
+    font-size: 33px;
+    background-color: #ffffff;
+    color: black;
+    padding: 7px;
+    top: 234px;
+  }
+  
+  
+  #context {
+    margin-top: -13px;
+  
+  }
+  
+  /* These are the side section selectors */
+  .work {
+    border-right: solid;
+    flex: 30%;
+    background-color: #ffffff;
+    padding: 21px;
+    flex-wrap: wrap;
+    font-size: 69px;
+    text-align: right;
+    height: 661px;
+    margin-top: 145px;
+    margin-right: 274px;
+  }
+  /* These are the side section selectors */
+  .contact {
+    border-right: solid;
+    flex: 30%;
+    background-color: #ffffff;
+    padding: 21px;
+    flex-wrap: wrap;
+    font-size: 69px;
+    text-align: right;
+    height: 211px;
+    margin-right: 274px;
+  }
+  
+  /* These are the side section selectors */
+  aside .about {
+    border-right: solid;
+    flex: 30%;
+    background-color: #ffffff;
+    padding: 21px;
+    flex-wrap: wrap;
+    font-size: 75px;
+    text-align: right;
+    height: 318px;
+    margin-top: 14px;
+    margin-right: 274px;
+  }
+  
+  /* Sets padding on all sides to 6px for the borders */
+  
+  .image-padding {
+    padding: 6px;
+    background-color: #f7f7d4;
+  }
+  
+  .image-border {
+  
+  /* Sets border on all sides */
+  
+  display: block;
+  border: 10px solid black;
+  width: 990px;
+  height: 370px;
+  margin-top: 84px;
+  margin-left: -96px;
+  }
+  
+  .worked {
+  position: relative;
+  font-family: Arial;
+  }
+  
+  /* This selector is for the text boxes over the images*/
+  .bix {
+  position: relative;
+  font-family: Arial;
+  margin-top: -157px;
+  margin-left: -28px;
+  }
+  
+  .bit {
+  position: relative;
+  font-family: Arial;
+  margin-top: -41px;
+  }
+  
+  .link {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 24px;
+  margin-top: 18px;
+  text-decoration: underline;
+  }
+  
+  
+  /* This selector is a shortcut method which sets top and bottom padding for the images display for the borders*/
+  
+  .imagetwo {
+  border: 10px solid black;
+  margin-top: 135px;
+  margin-left: -66px;
+  display: inline-block;
+  width: 481px;
+  height: 188px;
+  }
+  
+  .imagetwice {
+  border: 10px solid black;
+  margin-top: 16px;
+  margin-left: 21px;
+  display: inline-block;
+  width: 481px;
+  height: 188px;
+  }
+  
+  .imagetree {
+  border: 10px solid black;
+  margin-top: 22px;
+  margin-left: -93px;
+  display: inline-block;
+  width: 481px;
+  height: 188px;
+  }
+  
+  .imagethree {
+  border: 10px solid black;
+  margin-top: 22px;
+  margin-left: 20px;
+  display: inline-block;
+  width: 481px;
+  height: 188px;
+  }
+  
+  #contactme {
+  list-style-type: none;
+  display: inline-block;
+  }
+   
+  .contactme {
+  color: #000000;
+  float: left;
+  padding: 27px;
+  margin-top: 75px;
+  margin-right: 20px;
+  }
+  
+  #reachout div {
+  display: inline-block;
+  color: #000000;
+  font-size: 30px;
+  margin-left: -169px;
+  margin-top: 77px;
+  }  
+  
+  /* The selector for the contact me navbar  */
+  a#must {
+  display: inline-flex;
+  margin-left: 25px;
+  color: #000000;
+  margin-top: 81px;
+  margin-right: 7px;
+  }
+  
+  .aboutme {
+  margin-right: 2px;
+  }
+  
+  .subword {
+  font-size: 16px;
+  margin-top: 7px;
+  }
+  
+  .text-block {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: #f7f7d4;
+  padding-left: 22px;
+  padding-right: 16px;
+  height: 89px;
+  margin-bottom: 43px;
+  margin-left: -101px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .tet-block {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: #f7f7d4;
+  padding-left: 22px;
+  padding-right: 9px;
+  height: 89px;
+  margin-bottom: 30px;
+  margin-left: -73px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .te-block {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: #f7f7d4;
+  padding-left: 22px;
+  padding-right: 9px;
+  height: 89px;
+  margin-bottom: 30px;
+  margin-left: 431px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .tax-block {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: #f7f7d4;
+  padding-left: 22px;
+  padding-right: 9px;
+  height: 89px;
+  margin-bottom: 30px;
+  margin-left: -101px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .tu-block {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: #f7f7d4;
+  padding-left: 22px;
+  padding-right: 9px;
+  height: 89px;
+  margin-bottom: 30px;
+  margin-left: 407px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+   
+  nav p {
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  main {
+    display: flex;
+  }
+  
+  section {
+    flex: 70%;
+    background-color: #fff;
+    padding: 20px;
+    display: inline-block;
+    margin-left: -68px;
+  }
+  
+  footer {
+    padding: 20px;
+    text-align: center;
+    background: #000000;
+    color: #fff;
+  }
